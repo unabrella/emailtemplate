@@ -1,21 +1,30 @@
+<!DOCTYPE html>
 <html style="overflow-y: hidden;">
 <head>
 	<title></title>
+	<style>
+		.text-light {
+			font-size: 11pt;
+			font-family: Barlow Light;
+			line-height: 107%;
+		}
+		.text-italic {
+			font-style: italic;
+		}
+	</style>
 </head>
-<body style="height: auto; min-height: auto;">
-<div><br />
-<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-family:Barlow Light">Dear customer,<br />
-<br />
-Thank you for your enquiry!</span></span></span></span><br />
-<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-family:Barlow Light">Our support team will analyse your question and respond as soon as possible.</span></span></span></span><br />
-<br />
-<span style="line-height: 107%;"><span style="font-family:Barlow Light; font-size: 11pt;">Your message recieved on {{{Case.CreatedDate}}},</span></span><span style="line-height: 107%;"><font face="Barlow Light"><span style="font-size: 11pt;"> has </span><span style="font-size: 14.6667px;">been assigned</span><span style="font-size: 11pt;">the following case number:{{{Case.CaseNumber}}}.</span></font><br />
-<font face="Barlow Light"><span style="font-size: 11pt;">Please keep this number safe as you will need it if you have any further queries about your case.</span></font><br />
-<br />
-<span style="font-family:Barlow Light; font-size: 11pt;">Thank you for choosing Dorel Juvenile!</span></span><br />
-<br />
-<em><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-family:Barlow Light">Please visit <span style="color:#065e8b"><a href="https://doreljuvenile.com/our-brands" style="color:#0563c1; text-decoration:underline"><span style="color:#065e8b">doreljuvenile.com/our-brands</span></a> </span>for more information!</span></span></span></span></em><br />
-<br />
-<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b><u><span style="font-family:Barlow Light">Attention! This is an automated message and cannot be replied to.</span></u></b></span></span></span></div>
+<body>
+	<span class="text-light" lang="EN">Dear customer,</span><br>
+	<br>
+	<span class="text-light" lang="EN">Thank you for your enquiry!</span><br>
+	<span class="text-light" lang="EN">Our support team will analyse your question and respond as soon as possible.</span><br>
+	<br>
+	<span class="text-light" lang="EN">Your message received on {{{Case.CreatedDate}}}, has been assigned the following case number: {{{Case.CaseNumber}}}.</span><br>
+	<span class="text-light" lang="EN">Please keep this number safe as you will need it if you have any further queries about your case.</span><br>
+	<br>
+	<span class="text-light" lang="EN">Thank you for choosing Dorel Juvenile!</span><br>
+	<span class="text-light text-italic" lang="EN">Please visit <a href="https://doreljuvenile.com/en-en/our-brands">doreljuvenile.com/en-en/our-brands</a> for more information!</span><br>
+	<br>
+	<span class="text-light" lang="EN"><b><u>Attention! This is an automated message and cannot be replied to.</span></u></b>
 </body>
 </html>
